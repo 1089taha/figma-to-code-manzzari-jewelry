@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./components/Header";
 
 export default function Home() {
@@ -21,7 +20,8 @@ export default function Home() {
     </button>
   </div>
   <div className="w-full md:w-1/2 lg:1/2 flex justify-center md:justify-end p-10 md:p-16 lg:p-20 xl:p-24 2xl:p-32">
-    <img src="/image.svg" alt="image" className="w-full md:w-3/4 lg:w-full" />
+  <img src="/image.svg" alt="image" className="w-full md:w-3/4 lg:w-full" />
+
   </div>
 </div>  
 
