@@ -12,6 +12,16 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily :{
+        rey :['"Rey"', "san-serif"],
+        badoni : ['"Libre Badoni"' , "serif"]
+      },
+      screens : {
+        'xs': '100px'
+      },
+      letterSpacing : {
+        'extra-wide' : '0.025em',
+      }
     },
   },
   plugins: [],
